@@ -10,6 +10,8 @@ alias grep='grep --color=auto'
 alias install='sudo pacman -sS'
 alias uninstall='sudo pacman -Rcn'
 alias shirley='cd ~/mystuff/w/shirley/ && npm run start'
+alias spotify='flatpak run com.spotify.Client'
+alias rustrover='~/Downloads/RustRover-2024.3/bin/rustrover'
 
 PS1='\[\033[0;33m\]`date +"%H:%M:%S"`\[\033[0m\] \[\033[0;31m\]\u\[\033[0;35m\]@\h \[\033[0;34m\]\w/ \[\033[0;32m\]\$\[\033[0m\] '
 
